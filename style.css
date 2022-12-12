@@ -1,5 +1,6 @@
 body {
     margin: 0px 0px;
+    color: #333533;
 }
 
 header {
@@ -19,15 +20,41 @@ header {
 main {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 section {
     text-align: center;
 }
 
+.news-title {
+    margin: 8px 0px;
+}
+
 .more-btn {
     background-color: #F5CB5C;
     border: none;
     color: white;
+    padding: 5px 10px;
 }
 
+footer {
+    background-color: #333533;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-title {
+    color: white;
+    margin: 0px 0px;
+    display: inline-block;    
+}
+
+.subscribe-btn {
+    background-color: #F5CB5C;
+    border: none;
+    color: #333533;
+}
