@@ -1,0 +1,33 @@
+body {
+    margin: 0px 0px;
+}
+
+header {
+    background-color: #333533;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-title {
+    color: white;
+    margin: 0px 0px;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    text-align: center;
+}
+
+.more-btn {
+    background-color: #F5CB5C;
+    border: none;
+    color: white;
+}
+
