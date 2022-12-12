@@ -78,3 +78,18 @@ footer {
         height: 120px;
     }
 }
+
+@media only screen and (min-width: 1412px) {
+    .article-img {
+        width: 450px;
+        height: 350px;
+    }
+
+    article {
+        display: inline-block;
+    }
+
+    footer {
+        height: 180px;
+    }
+}
