@@ -27,6 +27,11 @@ section {
     text-align: center;
 }
 
+.article-img {
+    width: 250px;
+    height: 150px;
+}
+
 .news-title {
     margin: 8px 0px;
 }
@@ -57,4 +62,19 @@ footer {
     background-color: #F5CB5C;
     border: none;
     color: #333533;
+}
+
+@media only screen and (min-width: 744px) {
+    header {
+        height: 80px;
+    }
+
+    .article-img {
+        width: 350px;
+        height: 250px;
+    }
+
+    footer {
+        height: 120px;
+    }
 }
