@@ -76,6 +76,10 @@ footer {
         height: 250px;
     }
 
+    .more-btn {
+        padding: 10px 20px;
+    }
+
     footer {
         height: 120px;
     }
