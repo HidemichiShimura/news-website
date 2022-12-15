@@ -28,13 +28,17 @@ section {
     text-align: center;
 }
 
+article {
+    padding-bottom: 16px;
+}
+
 .article-img {
     width: 250px;
     height: 150px;
 }
 
 .news-title {
-    margin: 8px 0px;
+    margin: 4px 0px;
 }
 
 .more-btn {
