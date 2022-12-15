@@ -54,6 +54,7 @@ section {
 footer {
     background-color: #333533;
     height: 80px;
+    padding: 10px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,11 +67,15 @@ footer {
     display: inline-block;    
 }
 
+.email {
+    padding: 6px 16px;
+}
 .subscribe-btn {
     background-color: #F5CB5C;
     border: none;
     color: #333533;
     cursor: pointer;
+    padding: 6px 6px;
 }
 
 @media only screen and (min-width: 744px) {
