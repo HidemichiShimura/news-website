@@ -111,6 +111,10 @@ footer {
         display: inline-block;
     }
 
+    .article-content {
+        width: 40%;
+    }
+
     footer {
         height: 180px;
     }
